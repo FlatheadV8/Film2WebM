@@ -6,17 +6,7 @@
 # Dieses Skript verändert NICHT die Bildwiederholrate!
 #
 # Das Ergebnis besteht immer aus folgendem Format:
-#  - WebM:    webm   + VP9        + Opus    (kann nur das eine Untertitelformat WebVTT)
-#  - MKV:     mkv    + AV1        + Vorbis  (das z.Z. beste Format, leider aber kein HTML5-Standard)
-#  - MP4:     mp4    + H.264/AVC  + AAC     (das z.Z. mit Abstand kompatibelste Format)
-#  - MP4:     mp4    + H.265/HEVC + AAC
-#  - AVCHD:   m2ts   + H.264/AVC  + AC-3
-#  - AVI:     avi    + DivX5      + MP3
-#  - FLV:     flv    + FLV        + MP3     (Sorenson Spark: H.263)
-#  - 3GPP:    3gp    + H.263      + AAC     (128x96 176x144 352x288 704x576 1408x1152)
-#  - 3GPP2:   3g2    + H.263      + AAC     (128x96 176x144 352x288 704x576 1408x1152)
-#  - OGG:     ogg    + Theora     + Vorbis
-#  - MPEG:    mpg/ts + MPEG-1/2   + MP2/AC-3 (bei kleinen Bitraten ist MPEG-1 besser)
+#  - WebM:    webm   + AV1        + Opus    (kann nur das eine Untertitelformat WebVTT)
 #
 # https://de.wikipedia.org/wiki/Containerformat
 #
