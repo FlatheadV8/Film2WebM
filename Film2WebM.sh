@@ -31,7 +31,8 @@
 #
 #------------------------------------------------------------------------------#
 
-VERSION="v2024050600"			# erstellt
+#VERSION="v2024050600"			# erstellt
+VERSION="v2024050601"			# kleine Korrektur in der Hilfeausgabe
 
 VERSION_METADATEN="${VERSION}"
 
@@ -199,19 +200,6 @@ echo "
 	-soll_xmaly FUHD		# 7680x4320 16/9     ; Level Das Seitenverhaeltnis wird von AVC nicht unterstuetzt!
 	-soll_xmaly UHXGA		# 7680x4800 8/5      ; Level Das Seitenverhaeltnis wird von AVC nicht unterstuetzt!
 	-soll_xmaly QUHD		# 15360x8640 16/9    ; Level Das Seitenverhaeltnis wird von AVC nicht unterstuetzt!
-"
-}
-
-#------------------------------------------------------------------------------#
-
-ausgabe_hilfe()
-{
-echo "# 10
-#==============================================================================#
-"
-grep -E -h '^[*][* ]' ${AVERZ}/Filmwandler_Format_*.txt
-echo "# 20
-#==============================================================================#
 "
 }
 
@@ -500,7 +488,6 @@ while [ "${#}" -ne "0" ]; do
                         exit 70
                         ;;
                 -h)
-			#ausgabe_hilfe
                         echo "HILFE:
 	# Video- und Audio-Spur in ein HTML5-kompatibles Format transkodieren
 
